@@ -111,3 +111,19 @@ Dữ liệu thực để gửi qua mạng được truyền cho tầng ứng d�
 Hai giao thức tầng thấp thông dụng nhất là TCP và UDP. Mỗi ứng dụng sử dụng dịch vụ của một trong hai giao thức trên đều cần có cổng. Hầu hết các ứng dụng thông dụng có các cổng đặc biệt được cấp sẵn cho các chương trình phục vụ (server)(HTTP - Giao thức truyền siêu văn bản dùng cổng 80; FTP - Giao thức truyền tệp dùng cổng 21, v.v..) trong khi các trình khách (client) sử dụng các cổng tạm thời (ephemeral port).
 
 Các thiết bị định tuyến và thiết bị chuyển mạch không sử dụng tầng này nhưng các ứng dụng điều chỉnh thông lượng (bandwidth throttling) thì có dùng.
+####Một số giao thức
+#####FTP (File Transfer Protocol):
+- Là dịch vụ tạo cầu nối tin cậy.
+- Sử dụng giao thức TCP để truyền các tập tin.
+- Hỗ trợ truyền file nhị phân.
+
+#####TFPT(Trivial File Transfer Protocol):
+- Khác với FTP là một dịch vụ không tạo cầu nối sử dụng giao thức UDP.
+- DÙng trên router để truyền các file cấu hình.
+
+#####SMTP (Simple Mail Transfer Protocol):
+<ul>SMTP quản lý hoạt động truyền e-mail qua mạng máy tính.</ul>
+#####Telnet (Terminal emulation):
+<ul>Cung cấp khả năng truy cập từ xa vào một thiết bị đầu cuối khác. Cho phép người khác đăng nhập và thực thi các lệnh từ xa.</ul>
+#####SNMP (Simple Network Management Protocol):
+<ul>Là một giao thức cung cấp một phương pháp để giám sát và điều khiển các thiết bị mạng và để quản lý các cấu hình, thu thập thống kê, hiệu suất và bảo mật.</ul>
